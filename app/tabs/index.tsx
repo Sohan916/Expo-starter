@@ -1,7 +1,8 @@
 import { StyleSheet, View } from "react-native";
-import ImageViewer from "../components/ImageViewer";
 
-const PlaceholderImage = require("../../assets/images/background-image.png");
+import ImageViewer from "@/components/ImageViewer";
+
+const PlaceholderImage = require("@/assets/images/background-image.png");
 
 export default function Index() {
   return (
@@ -21,10 +22,5 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     flex: 1,
-  },
-  image: {
-    width: 320,
-    height: 440,
-    borderRadius: 18,
   },
 });
